@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* ********************* */
+/* ***** Main  *********/
+/* ********************* */
+body{
+  background-image: url(../record.png);
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  background-color: #9e37f3;
+  margin-top: 2rem;
+}
+.main h1, .main h3{
+  color: #fff; 
+}
+.main h1{
+  font-size: 1.8rem;
+}
+.main h3{
+  font-size: 1.4rem;
+}
+.description{
+  margin: 2rem 0 0 -1rem;
+  color: #000;
+  background-color: #ced4da;
+  padding: 2rem;
+}
